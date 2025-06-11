@@ -6,3 +6,24 @@ debug
 foo.*
 *.log
 data
+
+# Neovim swap/undo files
+*.swp
+*.swo
+*.swn
+*.un~
+*.tmp
+
+# LazyVim plugin cache
+lazy-lock.json
+lua/lazy-lock.json
+
+# Plugin data (don't track actual plugin code)
+site/
+plugin/
+packer_compiled.lua
+
+# Undo, backup, sessions
+undo/
+backup/
+sessions/
